@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class StudentManagementApp {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/student_db?useSSL=false&serverTimezone=UTC";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "shaurya2508";
+    private static final String DB_PASSWORD = "root";
 
     private static Connection conn;
     private static final Scanner sc = new Scanner(System.in);
